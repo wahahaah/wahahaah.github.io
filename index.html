@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <script src="bs/js/jquery-3.3.1.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+</head>
+<body calss="container">
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">个人主页</div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#divNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+<div id="divNav" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+    <div class="modal fade" id="divModal" data-backdrop="true" data-keyboard="false">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+    <h4 class="modal-title">Print Resume</h4>
+    </div>
+    <div class="modal-body">
+        Print Preview Or Print Config
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">closed</button>
+        <button type="button" class="btn btn-primary">Print</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+    </li>
+        </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">个人资料</div>
+                <div calss="panel-body">
+                    <img src="headdd.jpg" class="img-responsive img-rounded img-thumbnail" alt="Me">
+<p class="text-center text-primary"></p>
+    <address>
+        <strong>Lian JiLong</strong><br>
+        <span class="glyphicon glyphicon-home" title="Address"> 青岛市崂山区青岛科技大学</span><br>
+        <span class="glyphicon glyphicon-phone" title="Mobile"> 18819259282</span><br>
+        <span class="glyphicon glyphicon-envelope" title="Email"> abc.com</span>
+    </address>
+        </div>
+    </div>
+
+    <div class="panel panel-info">
+        <div class="panel-heading">我的能力</div>
+                <div calss="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-muted">HTML5</span>
+                    </div>
+        <div class="col-sm-9">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" style="width:20%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="text-success">Java</span>
+                </div>
+        <div class="col-sm-9">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width:70%"></div>
+                </div>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="text-info">Jquery</span>
+        </div>
+        <div class="col-sm-9">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-info active" style="width:0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="text-warning">Bootstrap</span>
+        </div>
+        <div class="col-sm-9">
+            <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width:10%"></div>
+            </div>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="text-danger">C</span>
+        </div>
+        <div class="col-sm-9">
+            <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width:70%"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">联系我</div>
+            <div calss="panel-body">
+            <form class="form-horizontal">
+            <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            </div>
+
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+            <input type="text" id="name" class="form-control" placeholder="name">
+            </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary pull-right">发送</button>
+            <div class="clearfix"></div>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+        <div class="col-sm-9">
+            <div class="jumbotron">
+                <p >简介
+                    abcdefjhijklmnopqrstuvwxyz
+                </p>
+            </div>
+
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">项目经历</a>
+                        </div>
+                    </div>
+
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-success">
+                                    <div class="row">
+                                        <div class="col-sm-4">暂无</div>
+                                        <div class="col-sm-4">青岛科技大学</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">教育经历</a>
+                        </div>
+                    </div>
+
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-success">
+                                    <div class="row">
+                                        <div class="col-sm-4">2019年 - 至今</div>
+                                        <div class="col-sm-4">青岛科技大学</div>
+                                        <div class="col-sm-4">学生</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+
+</script>
+
+</html>
